@@ -74,13 +74,22 @@ Like Cityscapes, KITTI test set result is also sumbitted to the evaluation serve
 https://github.com/tanmaysingha/SDBNetV2/blob/main/other_files/best_results_KITTI_mIoU.pdf
 
 ### Color map of Cityscapes dataset and model prediction using validation sample
-![cityscapes_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/City_color_map.png?raw=true)
- 
-### SDBNetV2 prediction on Cityscapes test samples
-![Cityscapes_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/city_test_pred.png?raw=true)  
+![cityscapes_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/City_color_map.png?raw=true)  
 
 ### Color map of CamVid dataset and model prediction using validation sample
 ![CamVid_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/camvid_color_map.png?raw=true)
+
+### Color map of IDD-lite dataset and model prediction using validation sample
+![IDDLite_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/color_map_IDD.png?raw=true)
+
+### Color map of Indoor objects dataset and model prediction using validation sample
+![Indoor_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/color_map_indoor.png?raw=true)
+
+### SDBNetV2 prediction on Cityscapes test samples
+![Cityscapes_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/city_test_pred.png?raw=true)
+
+### SDBNetV2 prediction on BDD100K test samples
+![BDD100K_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/BDD_test_pred.png?raw=true)
 
 ### SDBNetV2 prediction on CamVid validation sample
 ![CamVid_val_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/fig_CamVid_test.png?raw=true)
