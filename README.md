@@ -10,7 +10,8 @@ For this research work, we used six different datasets for outdoor and indoor sc
 * CamVid - To access this benchmark, visit this link: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
 * IDD and IDD-lite - To access this benchmark, user needs an account. Here is the link for this dataset: https://idd.insaan.iiit.ac.in/dataset/details/
 
-# Inddor datasets - To access this benchmark, visit this link: https://data.mendeley.com/datasets/hs5w7xfzdk/3
+# Indoor datasets:
+* Indoor objects - To access this benchmark, visit the following link: https://data.mendeley.com/datasets/hs5w7xfzdk/3
 
 ## Class mapping
 Different datasets provide different class annotations. For instance, Camvid dataset has 32 class labels. Refer this link to know about all 32 classes of Camvid: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/#ClassLabels. However, literature have shown that all the existing models are trained by 11 classes (Sky, Building, Pole, Road, Sidewalk, Tree, TrafficLight, Fence, Car, Pedestrian, Bicyclist) of Camvid dataset. Thereby, first 32 class annotations of Camvid are converted into 11 class annotations and then model is trained with 11 class annotations. To improve model performance, we also converted Cityscapes 19 class annotations to 11 class anotation and trained the model first with Cityscapes 11 class annotation, then use the pre-trained weight of Cityscapes to train the model with Camvid 11 class annotations. The following table shows the convertion of 32 classes of Camvid dataset to 11 classes.
@@ -91,7 +92,4 @@ https://github.com/tanmaysingha/SDBNetV2/blob/main/other_files/best_results_KITT
 ![IDDLite_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/Idd_lite_test_pred.png?raw=true)
 
 ### SDBNetV2 prediction on IDD (part1 and part2) and Cityscapes validation samples
-![IDD_City_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/IDD_Cityscapes_1ID_pred.png?raw=true)
-
-### SDBNetV2 prediction on Indoor object validation samples
 ![IDD_City_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/IDD_Cityscapes_1ID_pred.png?raw=true)
