@@ -48,6 +48,17 @@ TrainId | Camvid 11 classes  | Cityscapes classes
    9    |     Pedestrian     | Person   
   10    |     Bicyclist      | Rider, Bicycle, MotorCycle
 
+The following table shows the mapping of Cityscapes 19 classes to IDD-lite 7 classes.
+  
+TrainId | IDD-lite 7 classes   |           Cityscapes classes   
+--------|----------------------|---------------------------------------------
+   0    |      Drivable        |                 Road
+   1    |     Non-drivable     |                Sidewalk
+   2    |    Living-things     |              Person, Rider
+   3    |       Vehicles       |  Motorcycle, Bicycle, Car, Truck, Bus, Train  
+   4    |   Roadside objects   |  Wall, Fence, Traffic sign, Traffic light, Pole 
+   5    |     Far Objects      |           Building, Vegetation
+   6    |         Sky          |        Traffic Light, Traffic Sign  
 
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
