@@ -1,5 +1,5 @@
 # SDBNetV2: Short-term Dense Bottleneck Network for Real-time Semantic Segmentation 
-This is an official site for SDBNetV2 model. Currently, the model predictions and supplimentary materials are uploaded. Upon the acceptance of the paper, this repository will be updated.
+This is an official site for SDBNetV2 model. Currently, the model predictions and supplimentary materials are uploaded. To access the published paper, please click the following link: https://www.sciencedirect.com/science/article/pii/S1077314223001753
 
 ## Datasets
 For this research work, we used six different datasets for outdoor and indoor scene analysis.
@@ -113,3 +113,17 @@ https://github.com/tanmaysingha/SDBNetV2/blob/main/other_files/best_results_KITT
 
 ### SDBNetV2 prediction on IDD (part1 and part2) and Cityscapes validation samples
 ![IDD_City_test_set](https://github.com/tanmaysingha/SDBNetV2/blob/main/Figures/IDD_Cityscapes_1ID_pred.png?raw=true)
+
+### Citation
+ ```yaml
+cff-version: 1.2.0
+If SDBNetV2 is useful for your research work, please consider for citing the paper:
+@article{singha2023improved,
+  title={Improved Short-term Dense Bottleneck network for efficient scene analysis},
+  author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh},
+  journal={Computer Vision and Image Understanding},
+  pages={103795},
+  year={2023},
+  publisher={Elsevier}
+}
+```
